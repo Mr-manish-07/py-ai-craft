@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "metrics": {
+    "accuracy": 0.92,
+    "faithfulness": 0.88,
+    "avg_latency_ms": 420.0
+  },
+  "test_cases_count": 50
+}

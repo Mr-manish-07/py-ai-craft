@@ -1,0 +1,20 @@
+[
+  {
+    "id": "eval-001",
+    "input": "Explain the concept of semantic caching in AI systems.",
+    "ground_truth": "Semantic caching stores past LLM query embeddings to return cached responses for semantically similar prompts.",
+    "metadata": {
+      "difficulty": "medium",
+      "category": "system-design"
+    }
+  },
+  {
+    "id": "eval-002",
+    "input": "What is the primary function of a vector database in RAG?",
+    "ground_truth": "A vector database indexes high-dimensional embeddings to perform fast approximate nearest neighbor similarity searches.",
+    "metadata": {
+      "difficulty": "easy",
+      "category": "rag"
+    }
+  }
+]
