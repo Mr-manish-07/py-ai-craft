@@ -16,6 +16,12 @@ print(f"My name is {name}, I am {age} years old, and my current learning goal is
 
 # 2. Create variables containing an integer, float, string, and boolean. Print their values and their types using type().
 # Solution:
+first  = 2334
+second = 234.43
+third = "Manish"
+fourth = True
+print(first , " " ,type(first)," ",second," ",type(second)," ",third," ",type(third)," ",fourth," ",type(fourth))
+
 
 
 
