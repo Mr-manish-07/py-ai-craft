@@ -7,32 +7,33 @@ Total Questions: 15
 
 # 1. Write a Python program that stores your name, age, and current learning goal in variables and prints them in a formatted sentence.
 # Solution:
-name = "Manish Kumar"
-age = 21
-learning_goal = "Become a Production AI Engineer"
-
-print(f"My name is {name}, I am {age} years old, and my current learning goal is to {learning_goal}.")
+# name = "Manish Kumar"
+# age = 21
+# learning_goal = "Become a Production AI Engineer"
+#
+# print(f"My name is {name}, I am {age} years old, and my current learning goal is to {learning_goal}.")
 
 
 # 2. Create variables containing an integer, float, string, and boolean. Print their values and their types using type().
 # Solution:
-first  = 2334
-second = 234.43
-third = "Manish"
-fourth = True
-print(first , " " ,type(first)," ",second," ",type(second)," ",third," ",type(third)," ",fourth," ",type(fourth))
-
-
+# first  = 2334
+# second = 234.43
+# third = "Manish"
+# fourth = True
+# print(first , " " ,type(first)," ",second," ",type(second)," ",third," ",type(third)," ",fourth," ",type(fourth))
 
 
 # 3. Write a program that takes a number and prints whether it is positive, negative, or zero.
 # Solution:
-
+num = int(input("Enter Num : "))
+val = "Positive" if num > 0 else "Negative" if num < 0 else "Zero"
+print(val)
 
 
 # 4. Write a program that takes a user's age and prints whether the person is a minor, adult, or senior.
 # Solution:
-
+age = int(input("Enter age : "))
+print("Minor" if age < 18 else "Adult" if 10 <= age < 60 else "senior")
 
 
 # 5. Write a program that takes three numbers and prints the largest number without using max().
