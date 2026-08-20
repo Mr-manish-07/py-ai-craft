@@ -7,7 +7,11 @@ Total Questions: 15
 
 # 1. Write a Python program that stores your name, age, and current learning goal in variables and prints them in a formatted sentence.
 # Solution:
+name = "Manish Kumar"
+age = 21
+learning_goal = "Become a Production AI Engineer"
 
+print(f"My name is {name}, I am {age} years old, and my current learning goal is to {learning_goal}.")
 
 
 # 2. Create variables containing an integer, float, string, and boolean. Print their values and their types using type().
